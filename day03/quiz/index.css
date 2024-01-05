@@ -1,0 +1,19 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 50px;
+}
+body .result-box {
+  border: 2px solid black;
+  width: 250px;
+  height: 400px;
+}
+body .result-box span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 30px;
+}/*# sourceMappingURL=index.css.map */

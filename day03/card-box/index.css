@@ -1,0 +1,25 @@
+.inputBox {
+  display: flex;
+  flex-direction: column;
+}
+.inputBox .button {
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid grey;
+}
+
+.card-container {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.card-container .card {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 30px;
+  border: 1px solid grey;
+  border-radius: 20px;
+}/*# sourceMappingURL=index.css.map */
