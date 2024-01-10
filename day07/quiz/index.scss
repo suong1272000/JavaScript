@@ -1,0 +1,45 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    justify-content: center;
+    align-items: center;
+    .menuBox{
+        .imgBox{
+            height: 305px;
+            width: 305px;
+            position: relative;
+            img{
+                width: 100%;
+                height: 100%;
+                z-index: 1;
+            }
+            .ice{
+                background-color: #007eff;
+                z-index: 2;
+                position: absolute;
+                right: 10px;
+                bottom: 10px;
+                border-radius: 100px;
+                color: #fff;
+                padding: 5px 15px;
+            }
+        }
+        .textBox{
+            width: 305px;
+            h3{
+                font-size: 1.4em;
+                line-height: 1.2;
+            }
+            .line{
+                border-top: 1px solid #00000036;
+            }
+            p{
+                font-size: 0.9em;
+                opacity: 0.7;
+            }
+        }
+    }
+}
