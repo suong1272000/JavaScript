@@ -29,3 +29,4 @@ const a = new Button('티모', 'blue', function(){alert('티모')})
 a.render('.box')
 const b = new RoundButton('이즈리얼', 'skyblue', '20px', function(){alert('이즈리얼')})
 b.render('.box')
+
