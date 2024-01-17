@@ -1,17 +1,19 @@
 import { data } from "./data.js";
-import { listData, newData } from "./object.js";
 
-function renderCard(listData){
-    for(let i = 0; i < 100; i++){
+const newData = data.data[0].data;
+
+//card 추가하기
+const newArr = newData.forEach((value) => {
+    function renderCard(){
         const container = document.querySelector('.container')
         container.insertAdjacentHTML('beforeend',`
         <div class="cardBox">
-            <img src="${listData[i].image}" alt="">
-            <h2>${listData[i].title}</h2>
-            <p>${listData[i].runtime}</p>
+            <img src="${value.images.poster_url}" alt="">
+            <h3>${value.title}</h3>
+            <p>${value.running_time_friendly}</p>
         </div>
-        `)
-    }
-}
+        `)}
+    return renderCard()
+})
 
-renderCard(listData)
+
