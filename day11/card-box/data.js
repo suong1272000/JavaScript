@@ -1,5 +1,5 @@
 export const data = {
-    "data": [
+    data : [
         {
             "row_id": "e66158de-1dc8-4516-84c7-76fcf93d22c9",
             "row_name": "Mix Curation",
